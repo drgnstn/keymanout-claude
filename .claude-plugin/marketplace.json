@@ -1,0 +1,16 @@
+{
+  "name": "keymanout",
+  "owner": {
+    "name": "Key Man Out"
+  },
+  "metadata": {
+    "description": "Key Man Out vault workflows for production setup and disaster recovery."
+  },
+  "plugins": [
+    {
+      "name": "keymanout",
+      "source": "./plugins/keymanout",
+      "description": "Use the kmo CLI to manage runbooks and move secrets through files and pipes without printing their values."
+    }
+  ]
+}

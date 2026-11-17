@@ -1,0 +1,9 @@
+{
+  "name": "keymanout",
+  "version": "1.0.0",
+  "description": "Use the kmo CLI for production runbooks and successor disaster recovery while keeping secret values out of the conversation.",
+  "author": {
+    "name": "Key Man Out"
+  },
+  "repository": "https://github.com/drgnstn/keymanout-claude"
+}
