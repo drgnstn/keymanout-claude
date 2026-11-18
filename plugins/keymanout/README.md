@@ -9,7 +9,7 @@ claude plugin marketplace add drgnstn/keymanout-claude
 claude plugin install keymanout@keymanout
 ```
 
-Start a new Claude Code session and run `/keymanout:vault`. Install kmo from your vault's `/download` page first. Native credential-handling commands require kmo 0.5.0; fallback examples support 0.4.0.
+Start a new Claude Code session and run `/keymanout:vault`. Install kmo from [keymanout.app/download](https://keymanout.app/download) first. Use kmo 0.5.0 or newer, which connects to https://keymanout.app by default.
 
 The [vault skill](skills/vault/SKILL.md) provides handling guidance, not isolation against a shell-capable agent. Never share unlock credentials in chat. Consumer output is not redacted. Use your own account and follow successor access approvals.
 

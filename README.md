@@ -4,14 +4,14 @@ Use the `kmo` CLI with Claude Code to save production runbooks and secrets, or r
 
 ## Install
 
-Install `kmo` from your vault's `/download` page first. Then run:
+Install `kmo` from [keymanout.app/download](https://keymanout.app/download) first. Then run:
 
 ```bash
 claude plugin marketplace add drgnstn/keymanout-claude
 claude plugin install keymanout@keymanout
 ```
 
-Start a new Claude Code session and run `/keymanout:vault`, or ask Claude to use Key Man Out. The plugin installs no MCP server, hooks, permissions, or CLI binary. Its native credential-handling examples require kmo 0.5.0 or newer; file/stdin fallback examples support 0.4.0.
+Start a new Claude Code session and run `/keymanout:vault`, or ask Claude to use Key Man Out. The plugin installs no MCP server, hooks, permissions, or CLI binary. Use kmo 0.5.0 or newer, which connects to https://keymanout.app by default.
 
 If you previously added the downloadable local marketplace, replace that registration first:
 
